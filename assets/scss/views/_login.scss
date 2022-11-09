@@ -1,0 +1,130 @@
+section.customer-login {
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+    .customer-login-register-form {
+        max-width: 500px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.customer-login .customer-login-lost-password-form .block .header,
+.customer-login .customer-login-register-form .block .header {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#195695+0,0c3f6d+100 */
+	background: #195695; /* Old browsers */
+	background: -moz-linear-gradient(top,  #195695 0%, #0c3f6d 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top,  #195695 0%,#0c3f6d 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom,  #195695 0%,#0c3f6d 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#195695', endColorstr='#0c3f6d',GradientType=0 ); /* IE6-9 */
+	padding: 24px;
+	-webkit-border-top-left-radius: 5px;
+	-webkit-border-top-right-radius: 5px;
+	-moz-border-radius-topleft: 5px;
+	-moz-border-radius-topright: 5px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.customer-login .customer-login-lost-password-form .block .header .title,
+.customer-login .customer-login-register-form .block .header .title {
+	font-size: 22px;
+	line-height: 22px;
+	color: #fff;
+	font-weight: 900;
+	margin-bottom: 5px;
+}
+
+.customer-login .customer-login-lost-password-form .block .header .subtitle,
+.customer-login .customer-login-register-form .block .header .subtitle {
+	color: #91aeca;
+	font-size: 10px;
+	font-weight: 600;
+	line-height: 10px;
+}
+
+.customer-login .customer-login-lost-password-form .block .content,
+.customer-login .customer-login-register-form .block .content {
+	padding: 24px;
+	background: #fafbfd;
+	border: 1px solid #d0d8e3;
+}
+
+.customer-login .customer-login-lost-password-form .block .content label,
+.customer-login .customer-login-register-form .block .content label {
+	color: #0b3e6f;
+	font-size: 14px;
+	font-weight: 900;
+	margin-bottom: 3px;
+}
+
+.customer-login .customer-login-lost-password-form .block .content label.error,
+.customer-login .customer-login-register-form .block .content label.error {
+	color: #ec3030;
+	margin-top: 10px;
+	margin-bottom: 0;
+}
+
+.customer-login .customer-login-lost-password-form .block .content .input-group,
+.customer-login .customer-login-register-form .block .content .input-group {
+	margin-bottom: 15px;
+}
+
+.customer-login .customer-login-lost-password-form .block .content input,
+.customer-login .customer-login-register-form .block .content input {
+	width: 100%;
+	height: 48px;
+	line-height: 48px;
+	border: 1px solid #cfd7e3;
+	padding: 0;
+	padding-left: 15px;
+}
+
+.customer-login .customer-login-lost-password-form .block .content input.error,
+.customer-login .customer-login-register-form .block .content input.error {
+	border: 2px solid #ec3030;
+}
+
+.customer-login .customer-login-lost-password-form .block .content input::-webkit-input-placeholder,
+.customer-login .customer-login-register-form .block .content input::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+	color: #d3d7da;
+	font-size: 14px;
+}
+
+.customer-login .customer-login-lost-password-form .block .content input::-moz-placeholder,
+.customer-login .customer-login-register-form .block .content input::-moz-placeholder { /* Firefox 19+ */
+	color: #d3d7da;
+	font-size: 14px;
+}
+.customer-login .customer-login-lost-password-form .block .content input:-ms-input-placeholder,
+.customer-login .customer-login-register-form .block .content input:-ms-input-placeholder { /* IE 10+ */
+	color: #d3d7da;
+	font-size: 14px;
+}
+.customer-login .customer-login-lost-password-form .block .content input:-moz-placeholder,
+.customer-login .customer-login-register-form .block .content input:-moz-placeholder { /* Firefox 18- */
+	color: #d3d7da;
+	font-size: 14px;
+}
+
+.customer-login .customer-login-lost-password-form .block .footer,
+.customer-login .customer-login-register-form .block .footer {
+	background: #f3f4f8;
+	border: 1px solid #cfd7e3;
+	border-top: 0;
+	padding: 24px;
+}
+
+.customer-login .customer-login-lost-password-form .block .footer button,
+.customer-login .customer-login-register-form .block .footer button {
+	border: 0;
+	text-align: center;
+	font-size: 14px;
+}
+
+.customer-login .customer-login-lost-password-form .block .footer button,
+.customer-login .customer-login-register-form .block .footer button {
+	border: 0;
+	text-align: center;
+	font-size: 14px;
+}

@@ -1,0 +1,17 @@
+{
+    "name": "theme/default-theme",
+    "authors": [
+        {
+            "name": "Daniels Martinovs",
+            "email": "daniels@mintsparks.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DefaultTheme\\Plugins\\": "../../../wp-content/plugins/"
+        }
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    }
+}

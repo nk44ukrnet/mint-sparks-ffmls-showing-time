@@ -1,0 +1,112 @@
+.app-sidebar {
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgb(12, 64, 114);
+  background-color: rgb(255, 255, 255);
+  align-self: flex-start;
+
+  flex: 1 1 271px;
+  box-sizing: border-box;
+
+  &__header {
+    padding: 13px 10px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    background: linear-gradient(to top, rgb(11, 62, 111) 0%, rgb(35, 102, 170) 100%);
+    color: #fff;
+
+    span {
+      font-size: 13px;
+      color: rgb(255, 255, 255);
+      font-weight: bold;
+      line-height: 100%;
+    }
+
+    a {
+      &, &:hover, &:active {
+        color: #fff;
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 900;
+        line-height: 100%;
+      }
+    }
+  }
+
+  &__ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 17px 0;
+  }
+
+  &__item {
+    position: relative;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: flex;
+    gap: 12px;
+
+    &:not(:first-child) {
+      padding-top: 15px;
+    }
+
+    &:not(:last-child) {
+      padding-bottom: 17px;
+
+      &::before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        display: block;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        border-bottom: 1px dotted #cbd3d9;
+        pointer-events: none;
+      }
+    }
+  }
+
+  &__link {
+    color: inherit;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 13px;
+    gap: 11px;
+
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: max-content 1fr;
+
+    &_green {
+      color: rgb(71, 171, 24);
+    }
+
+    &_orange {
+      color: #ff8a00;
+    }
+
+    &_blue {
+      color: #1e92fd;
+    }
+
+    &_purple {
+      color: #c451c3;
+    }
+
+    &_navy-blue {
+      color: #1b4b79;
+    }
+  }
+
+  &__icon {
+    //width: 11px;
+    //margin-right: 11px;
+  }
+
+  &__text {
+  }
+}

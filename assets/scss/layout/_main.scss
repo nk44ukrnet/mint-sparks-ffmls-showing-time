@@ -1,0 +1,129 @@
+.app-main {
+  background-color: #dce3e8;
+  padding-top: 28px;
+  box-sizing: border-box;
+  padding-bottom: 30px;
+
+  .app-pagination {
+    margin-top: 25px;
+  }
+}
+
+.app-main-with-sidebar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.app-main-content {
+
+  flex: 1 1 797px;
+
+  &__header {
+    margin-bottom: 15px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    //flex-wrap: wrap;
+    gap: 26px;
+    margin-bottom: 14px;
+
+    background-color: #fff;
+    border: 1px solid #0e3e6d;
+    border-radius: 5px;
+    padding: 20px;
+
+    svg {
+      width: 34px;
+      height: 34px;
+      object-fit: contain;
+      flex: 0 0 34px;
+    }
+
+    p {
+      margin: 0;
+      padding: 0;
+      font-size: 14px;
+      color: rgb(14, 62, 109);
+      line-height: 142%;
+      font-weight: 700;
+    }
+  }
+
+  &__holder {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+  }
+  
+  @media (max-width: 768px) {
+
+    &__info {
+      align-items: flex-start;
+      gap: 10px;
+      margin-bottom: 14px;
+
+      padding: 11px 13px;
+
+      svg {
+        width: 23px;
+        height: 23px;
+        object-fit: contain;
+        margin-top: 5px;
+        flex: 0 0 23px;
+      }
+
+      p {
+        margin: 0;
+        padding: 0;
+        font-size: 14px;
+        color: rgb(14, 62, 109);
+        line-height: 1.429;
+      }
+    }
+
+  }
+}
+
+.content-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__heading {
+    font-size: 14px;
+    color: rgb(11, 62, 111);
+    font-weight: 900;
+  }
+
+  form, &__search {
+    position: relative;
+
+    input {
+      border: none;
+      border-bottom: 1px solid #c6d2dd;
+      background-color: transparent;
+      padding: 7px 3px;
+
+      &::placeholder {
+        font-size: 16px;
+        font-weight: bold;
+        color: rgb(11, 62, 111);
+      }
+    }
+
+    button {
+      background-color: transparent;
+      border: none !important;
+      position: absolute;
+      top: 50%;
+      right: 5px;
+      transform: translateY(-50%);
+    }
+  }
+}
+
+

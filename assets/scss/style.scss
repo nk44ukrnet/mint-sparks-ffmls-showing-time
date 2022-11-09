@@ -1,0 +1,43 @@
+// --------------------------------------------------
+// vars
+
+@import 'partials/variables';
+
+// --------------------------------------------------
+// vendors
+
+@import '../node_modules/bootstrap-scss/bootstrap-reboot';
+@import '../node_modules/bootstrap-scss/bootstrap-grid';
+@import '../node_modules/sweetalert2/dist/sweetalert2';
+
+// --------------------------------------------------
+// mixins
+
+@import 'mixins/fonts';
+@import 'mixins/helpers';
+
+// --------------------------------------------------
+// partials
+
+@import 'partials/base';
+@import 'partials/icons';
+@import 'partials/buttons';
+@import 'partials/type';
+@import 'partials/loading_buttons';
+@import 'partials/structure';
+@import 'partials/pagination';
+
+// --------------------------------------------------
+// layout
+
+@import 'layout/footer';
+@import 'layout/header';
+@import 'layout/main';
+@import 'layout/nav';
+@import 'layout/sidebar';
+@import 'layout/panel';
+
+// --------------------------------------------------
+// views
+
+@import 'views/login';

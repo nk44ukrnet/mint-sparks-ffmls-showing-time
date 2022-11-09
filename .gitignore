@@ -1,0 +1,6 @@
+assets/css/default-theme.min.css
+assets/js/default-theme.min.js
+assets/node_modules/
+assets/package-lock.json
+vendor/
+composer.lock

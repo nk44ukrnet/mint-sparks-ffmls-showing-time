@@ -1,0 +1,61 @@
+
+section.header-dashboard {
+	height: 104px;
+	min-height: 104px;
+	background: url('../img/dashboard-header-bg-v2.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+	border-bottom: 1px solid #0b3e6f;
+}
+
+section.header-dashboard .logo {
+
+}
+
+section.header-dashboard .logo img {
+	height: 65px;
+	margin-top: 15px;
+}
+
+section.header-dashboard .sponsors {
+	margin-left: 55px;
+}
+
+section.header-dashboard .sponsors img {
+	max-height: 60px;
+	margin-top: 20px;
+}
+
+section.header-dashboard .buttons {
+	margin-left: auto;
+	padding-top: 26px;
+}
+
+section.header-dashboard .buttons span {
+	position: relative;
+	padding-left: 15px;
+}
+
+section.header-dashboard .buttons a svg {
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	fill: #0b3e6f;
+	width: 9px;
+	height: 12px;
+}
+
+section.header-dashboard .buttons .mobile-toggler {
+	display: none;
+}
+
+section.header-dashboard .buttons .btn-logout {
+	color: #0b3e6f;
+	font-size: 14px;
+	border: 2px solid #0b3e6f;
+}
+
+section.header-dashboard .sponsors img:last-of-type {
+	margin-left: 25px;
+}

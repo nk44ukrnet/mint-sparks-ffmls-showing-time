@@ -1,0 +1,52 @@
+.btn-transparent {
+    background: transparent;
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 18px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.btn-transparent {
+	color: #1b2f4d;
+	font-size: 16px;
+	font-weight: 900;
+	border: 2px solid #0b3e6f;
+}
+
+.btn-yellow {
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#fff600+0,f1da36+100 */
+    background: #fff600; /* Old browsers */
+    background: -moz-linear-gradient(top,  #fff600 0%, #f1da36 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #fff600 0%,#f1da36 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #fff600 0%,#f1da36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff600', endColorstr='#f1da36',GradientType=0 ); /* IE6-9 */
+
+    color: #1b2b46;
+    font-weight: 900;
+    font-size: 18px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 20px;
+    padding-right: 20px;
+
+    -webkit-box-shadow:inset 0px 0px 0px 1px #e5c300;
+    -moz-box-shadow:inset 0px 0px 0px 1px #e5c300;
+    box-shadow:inset 0px 0px 0px 1px #e5c300;
+
+    display: inline-block;
+    line-height: 1.4;
+}
+
+.btn-yellow:hover {
+  text-decoration: none;
+  /*color: #ffd800;*/
+}

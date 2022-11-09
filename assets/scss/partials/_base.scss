@@ -1,0 +1,49 @@
+html {
+  height: 100%;
+}
+
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100%;
+  font-family: "Muli";
+}
+
+.content .intro-block h2 {
+  text-align: center;
+}
+
+.content h2 {
+  font-weight: 900;
+  color: #0b3e6f;
+  font-size: 38px;
+  margin-bottom: 55px;
+  margin-top: 0;
+  position: relative;
+  @media only screen and (max-width: 767px) {
+    font-size: 28px;
+  }
+  @media only screen and (max-width: 450px) {
+    font-size: 22px;
+  }
+}
+
+.content h2:after {
+  content: "";
+  width: 80px;
+  height: 4px;
+  background: #ffd800;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.app-container {
+  width: 100%;
+  max-width: 1112px;
+  padding-left: 12px;
+  padding-right: 12px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}

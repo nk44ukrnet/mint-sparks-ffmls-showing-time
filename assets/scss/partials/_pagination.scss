@@ -1,0 +1,42 @@
+.app-pagination {
+
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+
+  .page {
+    padding: 13px 17px;
+    background: #f4f8fb;
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(226, 230, 234);
+
+    font-size: 13px;
+    color: rgb(11, 62, 111);
+    font-weight: bold;
+
+    &:hover {
+      text-decoration: none;
+    }
+  }
+
+  .dots {
+  }
+
+  .current {
+    background: linear-gradient(to top, #0b3f70, #2366aa);
+    color: #fff;
+  }
+  
+  @media (max-width: 768px) {
+   .extra {
+     display: none;
+   }
+    .page {
+      padding: 12px 14px;
+    }
+  }
+
+}
