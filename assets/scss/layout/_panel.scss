@@ -488,4 +488,20 @@
   }
 }
 
+.app-panel-scheduled-showings {
+  &.app-panel_green, &.app-panel_red {
+    &:not(.active) {
+      .panel-head {
+        border: 1px solid #ffcb8d;
+        background-color: #fdf8f1;
+      }
+      .panel-head__sign {
+        transform: translateX(1px) scale(1.02);
+      }
+    }
+  }
+}
+
+
+
 
