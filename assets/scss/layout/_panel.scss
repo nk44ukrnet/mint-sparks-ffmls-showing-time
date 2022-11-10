@@ -680,6 +680,7 @@
   &__title {
     font-size: 14px;
     color: #0e3e6d;
+    flex: 0 1 600px;
   }
 
   &__value {
@@ -701,18 +702,66 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    margin-bottom: 23px;
   }
 
   &__title {
-    line-height: 114%;
+    line-height: 140%;
     color: #0e3e6d;
     font-size: 14px;
-    flex: 0 0 608px;
+    flex: 0 1 600px;
   }
 
   &__value {
     color: rgba(14, 62, 109, 0.502);
     font-size: 12px;
+  }
+
+  &__holder {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__cell {
+    &:not(:first-child) {
+      padding-left: 25px;
+    }
+
+    &:not(:last-child) {
+      padding-right: 25px;
+      border-right: 1px solid #fedaaf;
+    }
+
+    p {
+      font-size: 13px;
+      line-height: 150%;
+      margin-bottom: 8px;
+      color: #0e3e6d;
+    }
+
+    a {
+      background: linear-gradient(to top, rgb(255, 148, 21) 0%, rgb(255, 195, 35) 100%);
+      border-width: 1px;
+      border-color: rgb(255, 148, 21);
+      border-radius: 3px;
+      border-style: solid;
+      display: table;
+      color: #fff;
+      font-size: 13px;
+      font-weight: 900;
+      line-height: 100%;
+      padding: 10px 14px;
+
+      &:hover {
+        text-decoration: none;
+      }
+
+      &.disabled {
+        border-color: rgb(179, 184, 189);
+        background: linear-gradient(to top, #b2b7bb, #d1d6db);
+        color: #757d83;
+      }
+    }
   }
 }
 
