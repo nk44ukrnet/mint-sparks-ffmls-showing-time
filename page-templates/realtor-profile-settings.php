@@ -1,6 +1,6 @@
 <?php
 /*
- * Template Name: Propery Pageprofile Settings
+ * Template Name: Realtor: Profile Settings
  */
 get_header();
 ?>
@@ -145,7 +145,7 @@ get_header();
                                         <div class="panel-content-type-settings__holder">
                                             <label for="additionalEmail">Additional Email </label>
                                             <div class="panel-content-type-settings__input">
-                                                <input type="email" id="additionalEmail " value="Orange">
+                                                <input type="email" id="additionalEmail" value="Orange" placeholder="Enter Your Email">
                                             </div>
                                         </div>
 

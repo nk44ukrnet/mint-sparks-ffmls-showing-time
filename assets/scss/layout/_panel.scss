@@ -352,6 +352,9 @@
 }
 
 .panel-content-type-settings {
+  background-color: #fff;
+  border-radius: 0 0 5px 5px;
+
   &__top {
     padding: 28px 18px 16px;
     display: flex;
@@ -391,9 +394,10 @@
       border-radius: 3px;
       border: 1px solid #dce3e8;
       box-sizing: border-box;
-      padding: 14px;
+      padding: 13px;
       font-size: 13px;
       color: #0b3e6f;
+      line-height: 100%;
     }
 
     a {
