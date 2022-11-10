@@ -39,3 +39,20 @@ try {
 } catch (e) {
     console.log('expand-collapse panel error ', e);
 }
+//expand-collapse event
+try {
+    let eventHead = document.querySelectorAll('.app-panel-event__head'),
+        activeClass = 'active';
+
+    if (eventHead) {
+        for (let i = 0; i < eventHead.length; i++) {
+            eventHead[i].addEventListener('click', function () {
+                if (eventHead[i].closest('.app-panel-event')) {
+                    eventHead[i].closest('.app-panel-event').classList.toggle(activeClass);
+                }
+            })
+        }
+    }
+} catch (e) {
+    console.log('expand-collapse event error ', e);
+}

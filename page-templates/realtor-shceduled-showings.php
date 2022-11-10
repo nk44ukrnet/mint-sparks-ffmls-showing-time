@@ -85,7 +85,7 @@ get_header();
 
                     <div class="app-main-content__holder">
 
-                        <div class="app-panel app-panel_green app-panel-scheduled-showings active">
+                        <div class="app-panel app-panel_red app-panel-scheduled-showings active">
                             <div class="app-panel__head panel-head expand-head">
                                 <div class="panel-head__text">
                                     <h2 class="panel-head__heading">
@@ -140,14 +140,14 @@ get_header();
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="app-panel-event event">
-                                        <a href="#!" class="event__head">Event Log <em></em></a>
-                                        <div class="event__content">
-                                            <div class="event__item">
-                                                <div class="event__title">
+                                    <div class="app-panel-event active">
+                                        <a href="#!" class="app-panel-event__head">Event Log <em></em></a>
+                                        <div class="app-panel-event__content">
+                                            <div class="app-panel-event__item">
+                                                <div class="app-panel-event__title">
                                                     Showing requested by <a href="mailto:realtor@brokerage.com">realtor@brokerage.com</a>
                                                 </div>
-                                                <div class="event__value">
+                                                <div class="app-panel-event__value">
                                                     07.12.2022
                                                 </div>
                                             </div>
