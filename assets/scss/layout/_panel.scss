@@ -813,8 +813,38 @@
       }
     }
   }
+
   @media (max-width: 768px) {
-  
+    &__top {
+      display: block;
+      margin-bottom: 25px;
+    }
+    &__title {
+      line-height: 125%;
+      margin-bottom: 5px;
+    }
+    &__holder {
+      flex-direction: column;
+    }
+    &__cell {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 5px;
+      &:not(:first-child) {
+        padding-left: 0px;
+        padding-top: 17px;
+      }
+      &:not(:last-child) {
+        padding-right: 0px;
+        padding-bottom: 17px;
+        border-right: unset;
+        border-bottom: 1px solid #fedaaf;
+      }
+      p {
+        margin-bottom: 0;
+      }
+    }
   }
 }
 
